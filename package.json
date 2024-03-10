@@ -4,14 +4,19 @@
   "description": "",
   "main": "bin/index.js",
   "bin": {
-    "mini-opt-img": "./bin/index.js"
+    "image-optimize-cli": "./bin/index.js"
   },
   "type": "module",
   "scripts": {
+    "start": "node bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "image",
+    "optimize",
+    "cli"
+  ],
+  "author": "danielcgilibert",
   "license": "ISC",
   "dependencies": {
     "boxen": "^7.1.1",
